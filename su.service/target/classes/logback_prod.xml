@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug = "true">
+    <property name="log.base" value="E:/log" />
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+       <!-- <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>-->
+        <encoder>
+            <!--%-4relative从应用启动到现在的毫秒数-->
+            <pattern>%-4relative %d{HH:mm:ss.SSS} %X{No}[%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="errorfile" class = "ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.base}/errorlog.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class = "ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log.base}/errorlog-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>3GB</totalSizeCap>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>10MB</MaxFileSize>
+        </triggeringPolicy>
+        <encoder>
+            <pattern>%d{yyyyMMdd HH:mm:ss.SSS} [%thread] %-5level %logger{30} -%msg %n</pattern>
+        </encoder>
+
+    </appender>
+    <!-- debug<info<warm<error-->
+    <root level="info">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref = "errorfile"/>
+    </root>
+</configuration>

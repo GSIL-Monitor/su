@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.su.mybatis.MyDao">
+
+    <select id="getById" resultMap="taskControl" >
+        select * from cap_bank_task_control where 1=1
+        <if test="taskId != null">
+            and task_id = #{taskId,jdbcType = VARCHAR}
+        </if>
+
+    </select>
+    <update id="update">
+
+         update AAP_TEST set NAME = 'S2' where ID = #{id,jdbcType = BIGINT}
+
+    </update>
+    <resultMap id="taskControl" type="cn.su.TaskControlDomain">
+        <result property="taskId" column="TASK_ID"/>
+        <result property="runStatus" column="TASK_RUN_STATUS"/>
+    </resultMap>
+</mapper>

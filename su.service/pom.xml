@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>su</artifactId>
+        <groupId>com.su</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>su.service</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.su</groupId>
+            <artifactId>su.dmo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.su</groupId>
+            <artifactId>su.common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>3.1.1.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.suning.framework</groupId>
+            <artifactId>rsf</artifactId>
+            <version>2.3.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.suning.framework</groupId>
+                    <artifactId>snf-redis-client</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+
+
+    </dependencies>
+    <!--1. 命令行打包 mvn clean install -Pdev 可以激活该配置 优先级最高
+            2. setting.xml activeProfiles 设置默认环境
+            3.pom.xml  activeByDefault 设置默认激活 级别较低，如果设置了其他的，本设置不生效
+
+            优先级： 1>2>3
+        -->
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <!-- 自定义POM属性,建议其他属性还是配置在properties文件中比较好,比较简洁-->
+                <env.profile>dev</env.profile>
+                <logo>China</logo>
+                <!--<jdbc.url>jdbc:db2://10.47.147.220:60006/EPPSCAP</jdbc.url>
+                <jdbc.driver>com.ibm.db2.jcc.DB2Driver</jdbc.driver>
+                <jdbc.username>eppscap</jdbc.username>
+                <jdbc.password>tXEv686OkMKy</jdbc.password>-->
+            </properties>
+            <build>
+                <!--在指定环境中指定插件执行不同行为，代码测试时根据groups
+                         可指定是单元测试还是集成测试-->
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <groups>integration</groups>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <env.profile>prod</env.profile>
+                <!--<jdbc.url>jdbc:db2://10.47.147.222:60006/EPPSCAP</jdbc.url>
+                <jdbc.driver>com.ibm.db2.jcc.DB2Driver</jdbc.driver>
+                <jdbc.username>eppscap</jdbc.username>
+                <jdbc.password>tXEv686OkMKy</jdbc.password>-->
+            </properties>
+        </profile>
+        <profile>
+            <id>test</id>
+            <properties>
+                <env.profile>test</env.profile>
+                <!--<jdbc.url>jdbc:db2://10.47.147.223:60006/EPPSCAP</jdbc.url>
+                <jdbc.driver>com.ibm.db2.jcc.DB2Driver</jdbc.driver>
+                <jdbc.username>eppscap</jdbc.username>
+                <jdbc.password>tXEv686OkMKy</jdbc.password>-->
+            </properties>
+        </profile>
+    </profiles>
+    <build>
+        <!-- 一般而言,POM属性只能在pom.xml生效，要使上面配置的POM属性能用于classpath资源文件，必须开启资源文件过滤 -->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
+
+</project>

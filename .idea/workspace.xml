@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="su.web:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="192448d7-1466-4ae6-94ee-7980e3d8a01b" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/su.war/target/" />
+    <ignored path="$PROJECT_DIR$/su.dmo/target/" />
+    <ignored path="$PROJECT_DIR$/su.service/target/" />
+    <ignored path="$PROJECT_DIR$/su.common/target/" />
+    <ignored path="$PROJECT_DIR$/su.dao/target/" />
+    <ignored path="$PROJECT_DIR$/su.spark/target/" />
+    <ignored path="$PROJECT_DIR$/su.web/target/" />
+    <ignored path="$PROJECT_DIR$/su.mavenplugin/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/su$BankDiffServiceImpl.ic" NAME="BankDiffServiceImpl Coverage Results" MODIFIED="1547725314241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.su.service.Impl.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1535284828">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="12" />
+          <entry key="dummy" value="21" />
+          <entry key="java" value="4750" />
+          <entry key="jsp" value="17" />
+          <entry key="properties" value="95" />
+          <entry key="xml" value="2641" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="12" />
+          <entry key="JAVA" value="4750" />
+          <entry key="JSP" value="17" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Properties" value="95" />
+          <entry key="SQL" value="5" />
+          <entry key="XML" value="2636" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cfm" value="1" />
+          <entry key="class" value="29" />
+          <entry key="css" value="2" />
+          <entry key="java" value="124" />
+          <entry key="jsp" value="2" />
+          <entry key="properties" value="12" />
+          <entry key="xml" value="86" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CFML" value="1" />
+          <entry key="CLASS" value="29" />
+          <entry key="CSS" value="2" />
+          <entry key="JAVA" value="124" />
+          <entry key="JSP" value="2" />
+          <entry key="Properties" value="12" />
+          <entry key="XML" value="86" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1679737204">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="MD" value="1" />
+          <entry key="TXT" value="1" />
+          <entry key="class" value="11" />
+          <entry key="dtd" value="1" />
+          <entry key="ftl" value="5" />
+          <entry key="html" value="1" />
+          <entry key="java" value="119" />
+          <entry key="js" value="4" />
+          <entry key="jsp" value="2" />
+          <entry key="properties" value="6" />
+          <entry key="scala" value="3" />
+          <entry key="xml" value="48" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="11" />
+          <entry key="DTD" value="1" />
+          <entry key="FTL" value="5" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="119" />
+          <entry key="JSP" value="2" />
+          <entry key="JavaScript" value="4" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="6" />
+          <entry key="Scala" value="3" />
+          <entry key="XML" value="48" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="TXT" value="11" />
+          <entry key="dummy" value="48" />
+          <entry key="ftl" value="561" />
+          <entry key="html" value="10" />
+          <entry key="java" value="8185" />
+          <entry key="jsp" value="6" />
+          <entry key="properties" value="6" />
+          <entry key="xml" value="1300" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="FTL" value="561" />
+          <entry key="HTML" value="10" />
+          <entry key="JAVA" value="8185" />
+          <entry key="JSP" value="6" />
+          <entry key="PLAIN_TEXT" value="59" />
+          <entry key="Properties" value="6" />
+          <entry key="SQL" value="13" />
+          <entry key="XML" value="1287" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/su.web/src/main/java/cn/su/controller/AppController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/su.service/src/test/java/cn/su/RegExTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="22" column="44" selection-start-line="20" selection-start-column="8" selection-end-line="22" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/su.common/src/main/java/cn/su/ProfileListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/su.service/src/main/java/cn/su/threadpool/CachedThreadPoolDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="ColdFusion File" />
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getSqlsession</find>
+      <find>slf4j</find>
+      <find>taskId</find>
+      <find>convertProperty</find>
+      <find>sessionConfig</find>
+      <find>sqlSession</find>
+      <find>common</find>
+      <find>TaskControlDomain</find>
+      <find>env.profile</find>
+      <find>getById</find>
+      <find>single</find>
+      <find>Fix</find>
+      <find>_cat</find>
+      <find>switch</find>
+      <find>contextConfigLocation</find>
+      <find>DEFAULT_NAMESPACE_SUFFIX</find>
+      <find>CONFIG_LOCATION_PARAM</find>
+      <find>DEFAULT_STRATEGIES_PATH</find>
+      <find>insert</find>
+      <find>getLogger</find>
+      <find>.toString()</find>
+      <find>insertBatch</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>)</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/su" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/su.service/src/main/java/cn/su/io/downloadFile.java" />
+        <option value="$PROJECT_DIR$/su.service/src/main/java/cn/su/io/FileUtils.java" />
+        <option value="$PROJECT_DIR$/su.common/src/main/java/cn/su/threadpool/SingleThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/su.common/src/main/java/cn/su/threadpool/CachedThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/su.common/src/main/java/cn/su/threadpool/FixedThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/su.web/src/main/java/cn/su/control/AppControl.java" />
+        <option value="$PROJECT_DIR$/su.web/src/main/java/cn/su/controller/AppControl.java" />
+        <option value="$PROJECT_DIR$/su.service/src/main/java/cn/su/PoiTest.java" />
+        <option value="$PROJECT_DIR$/su.service/src/test/java/cn/su/PoiTest.java" />
+        <option value="$PROJECT_DIR$/su.common/src/main/java/cn/su/poi/ExcelUtils.java" />
+        <option value="$PROJECT_DIR$/su.service/src/main/java/cn/su/Exception/SuException.java" />
+        <option value="$PROJECT_DIR$/su.common/src/main/java/cn/su/ProfileFilter.java" />
+        <option value="$PROJECT_DIR$/su.common/src/main/java/cn/su/ProfileListener.java" />
+        <option value="$PROJECT_DIR$/su.common/src/main/java/cn/su/EncodeFilter.java" />
+        <option value="$PROJECT_DIR$/su.service/src/main/resources/spring-config.xml" />
+        <option value="$PROJECT_DIR$/su.web/src/main/webapp/WEB-INF/views/list.html" />
+        <option value="$PROJECT_DIR$/su.web/src/main/webapp/WEB-INF/views/list.jsp" />
+        <option value="$PROJECT_DIR$/su.web/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/su.web/src/main/webapp/index.ftl" />
+        <option value="$PROJECT_DIR$/su.web/src/main/webapp/WEB-INF/404.ftl" />
+        <option value="$PROJECT_DIR$/su.web/src/main/webapp/404.ftl" />
+        <option value="$PROJECT_DIR$/su.service/src/main/resources/params-dev.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/su.service/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/su.dmo/src/main/java/cn/su/BankDiffInfo.java" />
+        <option value="$PROJECT_DIR$/su.service/src/main/java/cn/su/service.java" />
+        <option value="$PROJECT_DIR$/su.service/src/main/java/cn/su/service/BankDiffServiceImpl.java" />
+        <option value="$PROJECT_DIR$/su.service/src/main/java/cn/su/service/Impl/BankDiffService.java" />
+        <option value="$PROJECT_DIR$/su.service/src/main/java/cn/su/service/BankDiffService.java" />
+        <option value="$PROJECT_DIR$/su.service/src/test/java/cn/su/BankDiffTest.java" />
+        <option value="$PROJECT_DIR$/su.common/src/main/java/cn/su/log/LogbackConfigurer.java" />
+        <option value="$PROJECT_DIR$/su.service/src/main/java/cn/su/mybatis/MyDao.java" />
+        <option value="$PROJECT_DIR$/su.common/src/main/java/cn/su/utils/DataUtils.java" />
+        <option value="$PROJECT_DIR$/su.service/src/main/java/cn/su/service/Impl/BankDiffServiceImpl.java" />
+        <option value="$PROJECT_DIR$/su.service/src/main/java/cn/su/mybatis/BankDiffInfoDao.java" />
+        <option value="$PROJECT_DIR$/su.service/src/main/resources/mybatis-bankDiffDao.xml" />
+        <option value="$PROJECT_DIR$/su.common/src/main/java/cn/su/FileTypeJudge.java" />
+        <option value="$PROJECT_DIR$/su.common/src/test/java/cn/su/RunEnvTest.java" />
+        <option value="$PROJECT_DIR$/su.common/src/test/java/cn/su/StringInternDemo.java" />
+        <option value="$PROJECT_DIR$/su.common/src/main/java/cn/su/utils/ZipUtil.java" />
+        <option value="$PROJECT_DIR$/su.common/src/main/java/cn/su/utils/InputFileTest.java" />
+        <option value="$PROJECT_DIR$/su.service/src/main/java/scm.properties" />
+        <option value="$PROJECT_DIR$/su.service/pom.xml" />
+        <option value="$PROJECT_DIR$/su.service/src/test/java/cn/su/RsfServiceTest.java" />
+        <option value="$PROJECT_DIR$/su.common/src/test/java/cn/su/CodeSmellTest.java" />
+        <option value="$PROJECT_DIR$/su.web/src/main/java/cn/su/controller/MyServletContextListener.java" />
+        <option value="$PROJECT_DIR$/su.web/src/main/java/cn/su/listener/MyServletContextListener.java" />
+        <option value="$PROJECT_DIR$/su.web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/su.web/src/main/webapp/WEB-INF/views/list.ftl" />
+        <option value="$PROJECT_DIR$/su.web/src/main/java/cn/su/controller/AppController.java" />
+        <option value="$PROJECT_DIR$/su.service/src/test/java/cn/su/RegExTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.5.4\conf\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="591" />
+    <option name="y" value="10" />
+    <option name="width" value="821" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>SetupSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringFacetInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="su" type="b2602c69:ProjectViewProjectNode" />
+              <item name="su" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="su" type="b2602c69:ProjectViewProjectNode" />
+              <item name="su" type="462c0819:PsiDirectoryNode" />
+              <item name="su.service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultCfmlFileTemplate" value="ColdFusion File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550224110919" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/su.web/src/main/java/cn/su" />
+    <property name="last_opened_file_path" value="E:/family-tree" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15548003" />
+    <property name="project.structure.side.proportion" value="0.277" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\su\su.web\src\main\webapp" />
+      <recent name="E:\su\su.web\src\main\webapp\WEB-INF" />
+      <recent name="E:\test1\service\src\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\su\su.web\src\main\webapp\WEB-INF\js" />
+      <recent name="E:\su\su.service\src\main\resources" />
+      <recent name="E:\su\su.service\src\main\java" />
+      <recent name="E:\su\su.common\src\main\java\cn\su" />
+      <recent name="E:\su\su.service\src\main\java\cn\su" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.su.controller" />
+      <recent name="cn.su.utils" />
+      <recent name="cn.su" />
+      <recent name="" />
+      <recent name="mybatis" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.sn.transaction.springMybatis" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RegExTest.testRegex">
+    <configuration name="CodeSmellTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="su.common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.su.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.su" />
+      <option name="MAIN_CLASS_NAME" value="cn.su.CodeSmellTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeSmellTest.testIndexof" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="su.common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.su.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.su" />
+      <option name="MAIN_CLASS_NAME" value="cn.su.CodeSmellTest" />
+      <option name="METHOD_NAME" value="testIndexof" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeSmellTest.testReturnValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="su.common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.su.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.su" />
+      <option name="MAIN_CLASS_NAME" value="cn.su.CodeSmellTest" />
+      <option name="METHOD_NAME" value="testReturnValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegExTest.testRegex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="su.service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.su.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.su" />
+      <option name="MAIN_CLASS_NAME" value="cn.su.RegExTest" />
+      <option name="METHOD_NAME" value="testRegex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RsfServiceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="su.service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.su.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.su" />
+      <option name="MAIN_CLASS_NAME" value="cn.su.RsfServiceTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="suweb" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="su.web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_test1" />
+        <option name="HTTP_PORT" value="8082" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54666" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="suweb:war" />
+          <artifact name="su.web:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.suweb" />
+      <item itemvalue="JUnit.RsfServiceTest.test" />
+      <item itemvalue="JUnit.CodeSmellTest.test" />
+      <item itemvalue="JUnit.CodeSmellTest.testIndexof" />
+      <item itemvalue="JUnit.CodeSmellTest.testReturnValue" />
+      <item itemvalue="JUnit.RegExTest.testRegex" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RegExTest.testRegex" />
+        <item itemvalue="JUnit.CodeSmellTest.testReturnValue" />
+        <item itemvalue="JUnit.CodeSmellTest.testIndexof" />
+        <item itemvalue="JUnit.CodeSmellTest.test" />
+        <item itemvalue="JUnit.RsfServiceTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">C:\Users\Administrator.MININT-KOP4DFR\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="192448d7-1466-4ae6-94ee-7980e3d8a01b" name="Default Changelist" comment="" />
+      <created>1544758153627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544758153627</updated>
+      <workItem from="1544758157737" duration="3005000" />
+      <workItem from="1545726854608" duration="1203000" />
+      <workItem from="1545808104843" duration="2330000" />
+      <workItem from="1545896512000" duration="336000" />
+      <workItem from="1545898415660" duration="2955000" />
+      <workItem from="1546151134898" duration="668000" />
+      <workItem from="1546409917360" duration="29343000" />
+      <workItem from="1546505658077" duration="4837000" />
+      <workItem from="1546832995238" duration="21552000" />
+      <workItem from="1546917382416" duration="1293000" />
+      <workItem from="1546919088732" duration="2356000" />
+      <workItem from="1546937503531" duration="9591000" />
+      <workItem from="1546949484338" duration="13207000" />
+      <workItem from="1547084427346" duration="22959000" />
+      <workItem from="1547430637916" duration="37236000" />
+      <workItem from="1547773694966" duration="3440000" />
+      <workItem from="1547960796456" duration="996000" />
+      <workItem from="1548058348698" duration="2462000" />
+      <workItem from="1548229850778" duration="6557000" />
+      <workItem from="1548319915335" duration="5473000" />
+      <workItem from="1548416747645" duration="722000" />
+      <workItem from="1548639123410" duration="9839000" />
+      <workItem from="1548727031721" duration="13305000" />
+      <workItem from="1550222899937" duration="1228000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RegExTest_testRegex - 2019.02.01 at 11h 45m 22s.xml">
+      <configuration name="RegExTest.testRegex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegExTest_testRegex - 2019.02.01 at 11h 46m 01s.xml">
+      <configuration name="RegExTest.testRegex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegExTest_testRegex - 2019.02.01 at 11h 46m 16s.xml">
+      <configuration name="RegExTest.testRegex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegExTest_testRegex - 2019.02.01 at 11h 46m 36s.xml">
+      <configuration name="RegExTest.testRegex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegExTest_testRegex - 2019.02.02 at 10h 34m 22s.xml">
+      <configuration name="RegExTest.testRegex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegExTest_testRegex - 2019.02.02 at 10h 34m 41s.xml">
+      <configuration name="RegExTest.testRegex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegExTest_testRegex - 2019.02.02 at 10h 34m 57s.xml">
+      <configuration name="RegExTest.testRegex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegExTest_testRegex - 2019.02.02 at 10h 35m 12s.xml">
+      <configuration name="RegExTest.testRegex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegExTest_testRegex - 2019.02.02 at 10h 35m 29s.xml">
+      <configuration name="RegExTest.testRegex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegExTest_testRegex - 2019.02.02 at 10h 35m 57s.xml">
+      <configuration name="RegExTest.testRegex" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="196893000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31430745" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.049069375" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49847794" weight="0.26395938" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5617597" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3993232" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50152206" side_tool="true" weight="0.57360405" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49923897" weight="0.0" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32994923" />
+      <window_info anchor="bottom" id="SonarLint" order="15" weight="0.32994923" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32952815" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/su.service/src/main/java/cn/su/transaction/mybatis/MyDaoWithTransaction.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/su.service/src/main/java/cn/su/transaction/springMybatis/MyDaoWithSpringMyBatisTransaction.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/su.service/src/main/java/cn/su/transaction/springMybatis/MyDaoWithSpringMyBatisTransactionAnnotation.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/su.common/src/main/java/cn/su/threadpool/CachedThreadPoolDemo.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/su.common/src/main/java/cn/su/threadpool/CachedThreadPoolDemo.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.11-beta1/poi-3.11-beta1-sources.jar!/org/apache/poi/poifs/filesystem/POIFSFileSystem.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/su.common/src/main/java/cn/su/poi/ExcelUtils.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/su.service/src/main/java/cn/su/mybatis/MyDao.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/su.service/src/main/java/cn/su/service/Impl/BankDiffServiceImpl.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/su.service/src/main/java/cn/su/service/Impl/BankDiffServiceImpl.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/su.service/src/test/java/cn/su/RsfServiceTest.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/su.web/src/main/java/cn/su/controller/AppController.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="propertyName.indexOf(&quot;pwd&quot;)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>row.getCell(1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>row.getCell(5)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>StaticLoggerBinder</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>StaticLoggerBinder.getSingleton()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>LoggerFactory.getILoggerFactory()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>StaticLoggerBinder.getSingleton().getLoggerFactory()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getValue(i)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>title[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pwd</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/su.spark/src/main/java/su/spark/data/rdd/MyRdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.web/src/main/webapp/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.web/src/main/webapp/404.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/main/resources/params-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.dmo/src/main/java/cn/su/TaskControlDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/main/java/cn/su/mybatis/SessionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/main/resources/mybatis-mydao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/main/java/cn/su/service.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar!/org/slf4j/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="110" column="9" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar!/org/slf4j/LoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="290" column="52" selection-start-line="290" selection-start-column="52" selection-end-line="290" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21-sources.jar!/org/slf4j/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="606" column="16" selection-start-line="606" selection-start-column="16" selection-end-line="606" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.dmo/src/main/java/cn/su/BankDiffInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/main/java/cn/su/service/BankDiffService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.jar!/org/slf4j/impl/Log4jLoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.11-beta1/poi-ooxml-3.11-beta1-sources.jar!/org/apache/poi/xssf/usermodel/XSSFRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3496">
+          <caret line="188" column="19" selection-start-line="188" selection-start-column="11" selection-end-line="188" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/main/java/cn/su/mybatis/MyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="44" column="116" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.common/src/main/java/cn/su/FileTypeJudge.java" />
+    <entry file="file://$PROJECT_DIR$/su.service/src/main/java/cn/su/mybatis/BankDiffInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="26" column="75" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/main/resources/mybatis-bankDiffDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/test/java/cn/su/BankDiffTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.common/src/main/java/cn/su/log/LogbackConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21-sources.jar!/org/slf4j/LoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1909">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21-sources.jar!/org/slf4j/ILoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16-sources.jar!/org/slf4j/impl/Log4jLoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="40" column="57" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.common/src/main/java/cn/su/utils/ZipUtil.java" />
+    <entry file="file://$PROJECT_DIR$/su.service/src/main/java/scm.properties" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/suning/framework/rsf/2.3.0/rsf-2.3.0.jar!/com/suning/rsf/consumer/AbstractExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="532" selection-start-line="532" selection-end-line="532" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16-sources.jar!/org/slf4j/impl/StaticLoggerBinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/main/resources/scm.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/suning/framework/snf-scm-client/2.2.0/snf-scm-client-2.2.0.jar!/com/suning/framework/scm/client/SCMConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="48" column="91" selection-start-line="48" selection-start-column="81" selection-end-line="48" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.common/src/test/java/cn/su/RunEnvTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.common/src/test/java/cn/su/StringInternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.common/src/main/java/cn/su/utils/DataUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.common/src/main/java/cn/su/utils/InputFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.1.1.RELEASE/spring-web-3.1.1.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.web/src/main/java/cn/su/listener/MyServletContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="15" column="68" lean-forward="true" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/test/java/cn/su/RsfServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.web/src/main/webapp/WEB-INF/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.web/src/main/webapp/WEB-INF/views/list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.common/src/test/java/cn/su/CodeSmellTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/main/java/cn/su/service/Impl/BankDiffServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.web/src/main/java/cn/su/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/test/java/cn/su/RegExTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="44" selection-start-line="20" selection-start-column="8" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.common/src/main/java/cn/su/ProfileListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/su.service/src/main/java/cn/su/threadpool/CachedThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>su.web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.277" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.277" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.277" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.277" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sumavenplugin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.277" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19610092" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.277" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

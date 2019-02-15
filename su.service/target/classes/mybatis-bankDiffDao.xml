@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.su.mybatis.BankDiffInfoDao">
+
+
+    <resultMap id="taskControl" type="cn.su.TaskControlDomain">
+        <result property="taskId" column="TASK_ID"/>
+        <result property="runStatus" column="TASK_RUN_STATUS"/>
+    </resultMap>
+
+    <insert id="insertBatch" parameterType="List">
+        insert into tbl_bank_diff_data_bak (TRAN_BATCH_NO,TRAN_DATE,SAP_ID,TRAN_TYPE,
+        TRAN_AMOUNT,PAY_NO,SUBJECT_NO,TRAN_NO,OLD_PAY_TIME,DIFF_DESCRIBE,PAY_INSITUTION,
+        RECI_INSITUTION,COMPANY_CODE)values
+        <foreach collection="list" item="detail" index="index" separator=",">
+            (
+            #{detail.tranBatchNo},#{detail.tranDate},
+            #{detail.sapId},#{detail.tranType},
+            #{detail.tranAmount},#{detail.payNo},
+            #{detail.subjectNo},#{detail.tranNo},
+            #{detail.oldPayTime},#{detail.diffDescribe},
+            #{detail.payInsitution},#{detail.reciInsitution},
+            #{detail.companyCode}
+            )
+        </foreach>
+
+    </insert>
+
+</mapper>

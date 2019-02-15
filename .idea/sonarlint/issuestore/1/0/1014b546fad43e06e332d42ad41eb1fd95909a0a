@@ -1,0 +1,7 @@
+
+lsquid:S2095"PUse try-with-resources or close this "OutputStreamWriter" in a "finally" clause.(û‰­Ýýÿÿÿÿ
+Vsquid:UselessImportCheck"2Remove this unused import 'java.util.zip.ZipFile'.(ˆ«„Ã
+esquid:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ŠÀø¯
+Xsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(òªŒó
+?squid:S1148"#Use a logger to log this exception.(¢ò¨½þÿÿÿÿ
+csquid:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(Ý‹Ðë
